@@ -54,6 +54,9 @@ dependencies {
     implementation(libs.recyclerview)
     implementation(libs.material)
     implementation(libs.glide)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
 
     implementation(libs.room.runtime)
     ksp(libs.room.compiler)
